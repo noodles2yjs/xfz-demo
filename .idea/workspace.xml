@@ -2,56 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f39bf4-9aae-4303-a701-e00267d0dd98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/CCPSDK/CCPRestSDK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/CCPSDK/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/CCPSDK/xmltojson.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/CCPSDK/接口说明.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsdkdysmsapi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsdkdysmsapi/request/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsdkdysmsapi/request/v20170525/QueryInterSmsIsoInfoRequest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsdkdysmsapi/request/v20170525/QuerySendDetailsRequest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsdkdysmsapi/request/v20170525/QueryTokenForMnsQueueRequest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsdkdysmsapi/request/v20170525/SendBatchSmsRequest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsdkdysmsapi/request/v20170525/SendInterSmsRequest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsdkdysmsapi/request/v20170525/SendSmsRequest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsdkdysmsapi/request/v20170525/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/aliyunsdk/aliyunsms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/captcha/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/captcha/verdana.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/captcha/xfzcaptcha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/smssender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/news/migrations/0003_comment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/cms/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/cms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/cms/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/news/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/news/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/news/templatetags/news_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/news/templatetags/news_filters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/news/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/xfzauth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/xfzauth/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/xfzauth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/xfzauth/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/xfzauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/xfzauth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/css/course/course_detail.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/course/course_detail.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/css/course/course_index.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/course/course_index.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/css/news/index.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/news/index.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/css/news/news_detail.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/news/news_detail.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/css/payinfo/payinfo.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/payinfo/payinfo.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/css/search/search.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/css/search/search.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/js/front_base.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/js/front_base.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/js/index.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/js/index.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/js/xfzajax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/js/xfzajax.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/css/common/heder.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/css/course/course_detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/css/course/course_detail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/css/course/course_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/css/course/course_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/css/news/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/css/news/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/css/news/news_detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/css/news/news_detail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/css/payinfo/payinfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/css/payinfo/payinfo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/css/search/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/css/search/search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/js/front_base.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/js/front_base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/js/xfzajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/js/xfzajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/base/front_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/base/front_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/templates/cms/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/cms/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/templates/cms/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/cms/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/templates/cms/write_news.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/cms/write_news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/templates/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/news/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/templates/news/news_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/news/news_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/585751c686e3051967c7e19ec237dba1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/89aaf7db9d9c547abb4402aa55016aee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/94fed7a7864730c4a31a91362ea15551.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/QQ-icon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/test1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/wechat-icon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/牛逼class.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/xfz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/xfz/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/xfz/urls.py" afterDir="false" />
     </list>
@@ -69,10 +40,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -95,25 +66,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/dist/arttemplate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/dist/adminlte/bower_components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Data\django\vip\xfzes\xfz-demo\front\dist\adminlte\bower_components" />
+      <recent name="E:\Data\django\vip\xfzes\xfz-demo\front\dist\images" />
+      <recent name="E:\Data\django\vip\xfzes\xfz-demo\front\src\images" />
+      <recent name="E:\Data\django\vip\xfzes\xfz-demo\apps\cms" />
       <recent name="E:\Data\django\vip\xfzes\xfz\front\dist\arttemplate" />
-      <recent name="E:\Data\django\vip\xfzes\xfz\front\dist" />
-      <recent name="E:\Data\django\vip\xfzes\xfz\apps\news\templatetags" />
-      <recent name="E:\Data\django\vip\xfzes\xfz\front\src\js" />
-      <recent name="E:\Data\django\vip\xfzes\xfz\front\templates\cms" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Data\django\vip\xfzes\xfz-demo\front\src\css\news" />
       <recent name="E:\Data\django\vip\xfzes\xfz\utils" />
       <recent name="E:\Data\django\vip\xfzes\xfz\front\src\js" />
       <recent name="E:\Data\django\vip\xfzes\xfz\apps" />
       <recent name="E:\Data\django\vip\xfzes\xfz\front\src\css" />
-      <recent name="E:\Data\django\vip\xfzes\xfz\front\src\course" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.xfz">
@@ -239,6 +210,22 @@
       <workItem from="1591609053600" duration="18637000" />
       <workItem from="1591751520059" duration="42395000" />
       <workItem from="1591881233135" duration="1012000" />
+      <workItem from="1591969562593" duration="1218000" />
+      <workItem from="1592095032994" duration="814000" />
+      <workItem from="1592099122577" duration="1183000" />
+      <workItem from="1592102321482" duration="19073000" />
+      <workItem from="1592229111876" duration="947000" />
+      <workItem from="1592234130158" duration="1887000" />
+      <workItem from="1592288676822" duration="321000" />
+      <workItem from="1592299631872" duration="382000" />
+      <workItem from="1592308755994" duration="345000" />
+      <workItem from="1592399143210" duration="649000" />
+      <workItem from="1592401099437" duration="1963000" />
+      <workItem from="1592440882726" duration="34131000" />
+      <workItem from="1592546779307" duration="13984000" />
+      <workItem from="1592612405742" duration="10719000" />
+      <workItem from="1592634765291" duration="21805000" />
+      <workItem from="1592784780544" duration="25672000" />
     </task>
     <servers />
   </component>
@@ -246,18 +233,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590588329040">
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592098650663">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590588329040" />
-    <state x="443" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591611970042">
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1592098650663" />
+    <state x="443" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592235870151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="443" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1591611970042" />
-    <state x="437" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1591514277106">
+    <state x="443" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1592235870151" />
+    <state x="437" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1592403803838">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1591514277106" />
+    <state x="437" y="205" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1592403803838" />
     <state width="1083" height="438" key="DebuggerActiveHint" timestamp="1591274116904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -266,26 +253,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="293" y="160" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1590158439413" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1591507393324">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1592458344388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591507393324" />
-    <state width="1323" height="150" key="GridCell.Tab.0.bottom" timestamp="1591870190453">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592458344388" />
+    <state width="1323" height="343" key="GridCell.Tab.0.bottom" timestamp="1592825073606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="150" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591870190453" />
-    <state width="1323" height="150" key="GridCell.Tab.0.center" timestamp="1591870190452">
+    <state width="1323" height="343" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592825073606" />
+    <state width="1323" height="343" key="GridCell.Tab.0.center" timestamp="1592825073606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="150" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591870190452" />
-    <state width="1323" height="150" key="GridCell.Tab.0.left" timestamp="1591870190452">
+    <state width="1323" height="343" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592825073606" />
+    <state width="1323" height="343" key="GridCell.Tab.0.left" timestamp="1592825073606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="150" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591870190452" />
-    <state width="1323" height="150" key="GridCell.Tab.0.right" timestamp="1591870190453">
+    <state width="1323" height="343" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592825073606" />
+    <state width="1323" height="343" key="GridCell.Tab.0.right" timestamp="1592825073606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="150" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591870190453" />
+    <state width="1323" height="343" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592825073606" />
     <state width="1323" height="216" key="GridCell.Tab.1.bottom" timestamp="1591282393814">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -302,14 +289,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591282393814" />
-    <state x="65" y="0" key="SettingsEditor" timestamp="1591774736337">
+    <state x="498" y="76" key="RollbackChangesDialog" timestamp="1592403817801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591774736337" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1591491779425">
+    <state x="498" y="76" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592403817801" />
+    <state x="372" y="17" key="SettingsEditor" timestamp="1592492241013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1591491779425" />
+    <state x="372" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592492241013" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1592492292561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1592492292561" />
     <state x="143" y="96" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591277081536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -326,10 +317,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="370" y="0" width="759" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591611985726" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591801578217">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592813988260">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591801578217" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1592813988260" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/xfz$test_sms.coverage" NAME="test_sms Coverage Results" MODIFIED="1591277469429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/xfzauth" />

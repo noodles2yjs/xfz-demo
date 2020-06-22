@@ -12,12 +12,12 @@
         {{ each newses news index}}
              <li>
                             <div class="thumbnail-group">
-                                <a href="#">
+                                <a href="/news/{{ news.id }}/">
                                     <img src="{{ news.thumbnail }}" alt=""></a>
                             </div>
                             <div class="news-group">
                                 <p class="title">
-                                    <a href="#"> {{ news.title }}</a>
+                                    <a href="/news/{{ news.id }}/"> {{ news.title }}</a>
                                 </p>
                                 <p class="desc">
                                     {{ news.desc }}
@@ -41,31 +41,15 @@
             <div class="main-content-wrapper">
                 <div class="banner-group" id="banner-group">
                     <ul class="banner-ul" id="banner-ul">
-                        <li>
-                            <a href="#">
-                                <img src="https://static-image.xfz.cn/1523588994_243.jpg" alt="">
+                       {% for banner in banners %}
+                            <li>
+                            <a href="{{ banner.link_to }}">
+                                <img src="{{ banner.image_url }}" alt="">
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <img src="https://static-image.xfz.cn/1523504442_455.png" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="https://static-image.xfz.cn/1521444982_469.jpg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="https://static-image.xfz.cn/1522742329_629.png" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="https://static-image.xfz.cn/1588231352_186.png" alt="">
-                            </a>
-                        </li>
+
+                       {% endfor %}
+
                     </ul>
 
                     <span class="arrow left-arrow">‹</span>
@@ -90,12 +74,12 @@
                         {% for news in newses %}
                                <li>
                             <div class="thumbnail-group">
-                                <a href="#">
+                                <a href="{% url 'news:news_detail' news_id=news.pk %}">
                                     <img src="{{ news.thumbnail }}" alt=""></a>
                             </div>
                             <div class="news-group">
                                 <p class="title">
-                                    <a href="#"> {{ news.title }}</a>
+                                    <a href="{% url 'news:news_detail' news_id=news.pk %}"> {{ news.title }}</a>
                                 </p>
                                 <p class="desc">
                                     {{ news.desc }}

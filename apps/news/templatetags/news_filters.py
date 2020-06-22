@@ -1,6 +1,7 @@
 #encoding: utf-8
 from django import template
 from datetime import datetime
+#localtime 转化为本地时间--UTC+8
 from django.utils.timezone import now as now_func,localtime
 
 register = template.Library()
